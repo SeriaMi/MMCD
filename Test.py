@@ -34,7 +34,7 @@ def compute_AF_fft(H, X,q):
     A_full = ifft(A_fft)
     return A_full
 if __name__ == '__main__':
-    max_iter = 20000
+    max_iter = 5000
     L = 2
     lambda_val  = 1
     epision = 1/(lambda_val+1)
